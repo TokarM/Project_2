@@ -1,3 +1,9 @@
+html {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .navigation {
   background-color: #333;
   text-align: center;
