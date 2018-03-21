@@ -1,10 +1,6 @@
-html {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .navigation {
+  width: 100%;
   background-color: #333;
   text-align: center;
 }
@@ -37,13 +33,3 @@ html {
 html {
       font-family: 'Raleway', serif;
 }
-
-    @media screen and (min-width: 480px) {
-
-    }
-    @media screen and (min-width: 620px) {
-
-    }
-    @media screen and (min-width: 810px) {
-
-    }
