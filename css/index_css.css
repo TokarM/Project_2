@@ -154,10 +154,11 @@ html #my_programs {
   box-sizing: border-box;
   display: inline-block;
 
+  width: 47%;
   margin: 1% ;
   text-align: center;
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1060px) {
 .screenshot {
   width: 100%;
 }
