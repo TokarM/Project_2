@@ -1,7 +1,8 @@
 html {
-    width: 100%;
-    font-family: 'Raleway', serif;
-    min-width: 400px;
+  width: 100%;
+  font-family: 'Raleway', serif;
+  min-width: 400px;
+  margin: auto;
 }
 
 .navigation {
@@ -10,34 +11,39 @@ html {
   text-align: center;
 }
 .navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    display: inline-block;
-   }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: inline-block;
+}
 .navigation li {
-    float: left;
-   }
+  float: left;
+}
 .navigation  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-   }
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
    /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+  background-color: #111;
    }
 
   /* This is index.html css */
 
 html #index {
+  display: block;
   background: linear-gradient(to right, #c9d6ff ,#e2e2e2);
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
 }
+
 #myphoto {
   float: left;
   position: relative;
@@ -45,12 +51,12 @@ html #index {
 }
 #info_list {
   margin-top: 0px;
+  margin-left: 5%;
   float: left;
   position: relative;
   text-align: left;
 }
 #info_list li {
-  margin-left: 10%;
   padding-bottom: 5%;
 }
 #contact_info {
@@ -73,6 +79,9 @@ html #index {
 
 html #my_websites {
   background: linear-gradient(to right, #e0eafc ,#cfdef3);
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
 }
 #about_me {
   margin-left: 5%;
@@ -106,6 +115,9 @@ html #my_websites {
 
 html #my_programs {
   background: linear-gradient(to right, #d3cce3 ,#e9e4f0);
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
 }
 #about_me {
   margin-left: 5%;
