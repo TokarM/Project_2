@@ -38,6 +38,21 @@ li a:hover {
 html #index {
   background: linear-gradient(to right, #c9d6ff ,#e2e2e2);
 }
+#myphoto {
+  float: left;
+  position: relative;
+  margin-left: 5%;
+}
+#info_list {
+  margin-top: 0px;
+  float: left;
+  position: relative;
+  text-align: left;
+}
+#info_list li {
+  margin-left: 10%;
+  padding-bottom: 5%;
+}
 #contact_info {
   text-align: center;
 }
