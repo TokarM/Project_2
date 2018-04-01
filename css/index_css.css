@@ -1,4 +1,39 @@
-body {
+.navigation {
+  width: 100%;
+  background-color: #333;
+  text-align: center;
+}
+
+.navigation ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: #333;
+       display: inline-block;
+   }
+
+.navigation li {
+       float: left;
+   }
+
+.navigation  li a {
+       display: block;
+       color: white;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+   }
+
+   /* Change the link color to #111 (black) on hover */
+ li a:hover {
+       background-color: #111;
+   }
+html {
+      font-family: 'Raleway', serif;
+}
+
+#index {
   background: linear-gradient(to right, #c9d6ff ,#e2e2e2);
 }
 
@@ -13,4 +48,83 @@ body {
 #skills {
   margin-left: 2%;
   margin-right: 2%;
+}
+
+/* This is my websites css */
+
+#my_websites {
+  background: linear-gradient(to right, #e0eafc ,#cfdef3);
+}
+#about_me {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#about_me h3{
+  text-align: center;
+}
+
+#hardcoded {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#hardcoded h2{
+  text-align: center;
+}
+
+#wix {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#wix h2{
+  text-align: center;
+}
+
+/* This is my programs css */
+
+#my_programs {
+  background: linear-gradient(to right, #d3cce3 ,#e9e4f0);
+}
+
+#about_me {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#about_me h3{
+  text-align: center;
+}
+
+#cafe_program {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#cafe_program h2{
+  text-align: center;
+}
+
+#java_program {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#java_program h2{
+  text-align: center;
+}
+
+.screenshot {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 47%;
+  margin: 1% ;
+  text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+.screenshot {
+  width: 100%;
+}
 }
